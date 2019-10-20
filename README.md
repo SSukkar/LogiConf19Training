@@ -9,7 +9,7 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 
 1.3. Having the Microsoft SQL Server Management Studio installed.
 
-1.4. Having a user added to the database, within credentials included in the **_Settings** file, in the applicatoin you are going to create in a while.
+1.4. Having a user added to the database, within credentials included in the **_Settings** file, inside the applicatoin you are going to create in a while.
 
 ### 2. Setting-up the Application
 2.1. Create a Logi application in 'C:\inetpub\wwwroot' path, and give it a name like **logiConf2019_Training**.
