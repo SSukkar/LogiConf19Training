@@ -29,4 +29,4 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 
 3.3. Restore 'AdventureWorks2016CTP3.bak' and 'AdventureWorksDW2017.bak' files.
 
-### 4. Adding tables within their data to AdventureWorks2016CTP3 database, by executing [this script](https://gist.github.com/SSukkar/ebac833504f28d27495baeda25783c49)
+### 4. Adding tables within their data to AdventureWorks2016CTP3 database, by executing [this script.](https://gist.github.com/SSukkar/ebac833504f28d27495baeda25783c49)
