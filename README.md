@@ -12,13 +12,15 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 1.4. Having a user added to the database, within credentials included in **_Settings** file.
 
 ### 2. Setting-up the Application
-2.1. Create a Logi application in 'C:\inetpub\wwwroot' path.
+2.1. Create a Logi application in 'C:\inetpub\wwwroot' path, and give it a name like **logiConf2019_Training**.
 
 2.2. Download the **LogiConf19Training** Repository as ZIP file and Uncompress it in the same path.
 
-2.3. Copy the contents of **LogiConf2019_Training** and paste them in Logi app you have already created. This should override the **_Definitions** and **_SupportFiles** folders.
+2.3. Copy the contents of **App** folder and paste them in the Logi app you have already created. This should override the **_Definitions** and **_SupportFiles** folders.
 
-2.4. Register the **security_embedded** app in IIS.  
+2.4. Create a folder **export** in **logiConf2019_Training** application folder.
+
+2.5. Register the **security_embedded** app in IIS.  
 
 ### 3. Setting-up the used databases
 3.1. Install the [AdventureWorks2016CTP3.bak](https://www.microsoft.com/en-us/download/details.aspx?id=49502) file.
