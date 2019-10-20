@@ -5,7 +5,7 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 ### 1. Prerequisites
 1.1. Having the [IIS configured](https://documentation.logianalytics.com/logiinfov12/content/installing-logi-info-on-windows-10.htm).
 
-1.2. 1.1. Having [Logi Info Studio 12.6.089](https://documentation.logianalytics.com/logiinfov12/content/installing-logi-info-on-windows-10.htm) installed.
+1.2. Having [Logi Info Studio 12.6.089](https://documentation.logianalytics.com/logiinfov12/content/installing-logi-info-on-windows-10.htm) installed.
 
 1.3. Having the Microsoft SQL Server Management Studio installed.
 
@@ -18,7 +18,7 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 
 2.3. Uncompress the **LogiConf19Training** ZIP file.
 
-2.4. Copy the content of **LogiConf2019_Training** and paste them in Logi app you have already created. This should override the **_Definitions** and **_SupportFiles** folders.
+2.4. Copy the contents of **LogiConf2019_Training** and paste them in Logi app you have already created. This should override the **_Definitions** and **_SupportFiles** folders.
 
 2.5. Register the **security_embedded** app in IIS.  
 
