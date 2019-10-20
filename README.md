@@ -18,7 +18,7 @@ This app has been developed to be a reference in the 2019 Logi Conference. The C
 
 2.3. Copy the contents of **App** folder and paste them in the Logi app you have already created. This should override the **_Definitions** and **_SupportFiles** folders.
 
-2.4. Create a folder **export** in **logiConf2019_Training** application folder.
+2.4. Create a folder **export** inside **logiConf2019_Training** application folder.
 
 2.5. Register the **security_embedded** app in IIS.  
 
