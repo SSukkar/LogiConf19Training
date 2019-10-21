@@ -39,18 +39,28 @@ where you should see several folders, such as v4.0.30319, one for each version o
 * Select Convert to Application.  
 
 ### 3. Setting-up the databases
-#### 3.1. Download the following databases and copy them to the backup folder under the installation path of the SQL server , ie. C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\Backup:
+#### 3.1. Create a database user
+* Run SQL Server Management Studio.
+* On the left panel > right click on your local server node > click **Properties**
+* In **Security** page, select **SQL Server and Windows Authentication mode**, and click OK.
+* On the left panel, expand your local server node > Security.
+* Right click on **Logins** folder, and select **New Login**.
+* Select SQL Server authentication.
+* Enter the Login name and Password as same as User and Password inside  **C:\inetpub\wwwroot\logiConf2019_Training\_Definitions\_Settings.lgx** file, in Connections element, and click OK.
+* The user you have created is added into **Logins** folder > right click on it > click **Properties**.
+* In **Server Roles** page, chack **public, securityadmin, and sysadmin** boxes.
+* In **Securables** page > **Explicit** tab > check **Authenticate server, Connect Any Database, Connect SQl, Control server, and Create any database** boxes.
+
+#### 3.2. Download the following databases and copy them to the backup folder under the installation path of the SQL server , ie. C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\Backup:
 * [AdventureWorks2016CTP3.bak](https://www.microsoft.com/en-us/download/details.aspx?id=49502).
 * [AdventureWorksDW2017.bak](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)
 * [AdventureWorks2017.bak](https://github.com/microsoft/sql-server-samples/releases)
 
-#### 3.2. Follow the below steps for each downloaded database to restore it: 
-* Run SQL Server Management Studio.
-* Connect to your local server.
+#### 3.3. Follow the below steps for each downloaded database to restore it: 
 * On the left panel, expand your local server node.
-* Right click on Databases, click on Restore Database.
-* In "General" page, choose Device as the source > click the three dots button.
-* Click Add to select backup file.
+* Right click on **Databases**, click on Restore Database.
+* In **General** page, choose Device as the source > click the three dots button.
+* Click **Add** to select backup file.
 * Search for the downloaded files in the backup folder under the installation path of the SQL server > click ok.
 
-#### 3.3. Run [this database script](https://gist.github.com/SSukkar/ebac833504f28d27495baeda25783c49) inside the database **AdventureWorks2016CTP3**, this will create the required Menu/SubMenu tables for the logi application **logiConf2019_Training**, and insert data into them.
+#### 3.4. Run [this database script](https://gist.github.com/SSukkar/ebac833504f28d27495baeda25783c49) inside the database **AdventureWorks2016CTP3**, this will create the required Menu/SubMenu tables for the logi application **logiConf2019_Training**, and insert data into them.
